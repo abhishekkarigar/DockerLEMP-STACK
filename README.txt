@@ -15,7 +15,7 @@ Troubleshooting points
 	ex: VOLUME /usr/jmeter/results
 	creates a new empty folder everytime you run 
 	
-	by default it goes to /var/lib/docker/volumes in docker host 
-	so it can be overridden in runtime by the following command 
+	##by default it goes to /var/lib/docker/volumes in docker host 
+	##so it can be overridden in runtime by the following command 
 	
-	docker run -v /c/users/karigar/Desktop/:/user/jmeter/results
+	##docker run -v /c/users/karigar/Desktop/:/user/jmeter/results
